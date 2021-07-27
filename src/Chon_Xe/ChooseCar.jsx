@@ -93,15 +93,15 @@ class ChooseCar extends Component {
       <div className="container-fluid">
         <div className="row">
           <div className="col-7">
-            <ThreeSixty
+            {/* <ThreeSixty
               amount={8}
               imagePath={"./images/" + srcImg}
               fileName="civic-{index}.jpg"
-            />
-            {/* <img
+            /> */}
+            <img
               src={"./images/"+srcImg+"civic-1.jpg"}
               className="w-100"
-            /> */}
+            />
           </div>
           <div className="col-5">
             <div className="card">
