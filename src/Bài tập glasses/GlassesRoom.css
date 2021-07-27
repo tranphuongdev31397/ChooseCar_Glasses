@@ -1,0 +1,26 @@
+.card__body{
+    position: absolute;
+    bottom: 0;
+    background: #ffeb0082;
+    display: none;
+    left: 0;
+}
+.card__glasses{
+    background-image: url(./glassesImage/model.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.img__glass{
+    position: absolute;
+    top: 103px;
+    width: 65%;
+    right: 53px;
+}
+.model__main{
+    background-image: url(./glassesImage/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
